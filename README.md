@@ -101,16 +101,13 @@
 
 <div align="center">
 
-<!-- Pixel Art Style Stats -->
-<img src="https://pixel-profile.vercel.app/api/github-stats?username=cruway&theme=journey&screen_effect=true&show_rank=true" width="420" />
+<!-- GitHub Stats (generated via GitHub Actions with PAT) -->
+<img src="./stats/github-stats.svg" width="420" />
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=cruway&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&count_private=true" width="420" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cruway&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF&count_private=true" width="420" />
+<img src="./stats/top-langs.svg" width="420" />
 
 <!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cruway&theme=radical&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=FF6600&currStreakLabel=00FF00" width="420" />
+<img src="./stats/streak.svg" width="420" />
 
 </div>
 
