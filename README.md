@@ -80,16 +80,16 @@
 
 | Status | Quest | Description | Tech |
 |:------:|-------|-------------|------|
-| 🔥 | **Mikasa** | Enterprise-grade multi-module backend system | `Java` `Spring Boot` `Gradle` |
-| 🔥 | **novel_forge** | AI-powered novel game engine with plugin system | `Flutter` `Dart` |
-| 🔥 | **speckit-dev** | Developer toolkit for spec-driven development | `TypeScript` `React` |
-| ⚡ | **japan-loto-predictor** | Lottery prediction system using ML models | `Python` `AI/ML` |
-| ⚡ | **claudia** | Desktop app powered by AI | `TypeScript` `Tauri` |
-| ⚡ | **techpulse-blog** | Tech blog platform | `Go` |
-| 🎮 | **undead_survive** | Survival game — hack & slash action | `Flutter` `Dart` |
-| 🎮 | **novel_game** | Interactive visual novel game | `Flutter` `Dart` |
-| 🛡️ | **cruway-workflow-visualizer** | Workflow visualization tool | `TypeScript` `Tauri` |
-| 🛡️ | **vforkorea-ext-v3** | Chrome Extension (Manifest V3) | `JavaScript` |
+| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` |
+| 🔥 | **devquest** | RPG-style gamified developer task manager | `Flutter` `Flame` `Bonfire` |
+| ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` |
+| ⚡ | **novel-ai-project** | AI-powered novel auto-generation platform | `AI` `Automation` |
+| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` |
+| 🛠️ | **techpulse-blog** | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` |
+| 🛠️ | **workflow-visualizer** | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` |
+| 🛠️ | **doc-to-markdown-editor** | Google Docs → structured Markdown export tool | `TypeScript` |
+| 🎮 | **undead_survive** | Survival hack & slash action game | `Flutter` `Dart` |
 
 </div>
 
