@@ -172,6 +172,6 @@
 ╚═══════════════════════════════════════════════════════╝
 ```
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fcruway&count_bg=%2300FF00&title_bg=%23000000&icon=github.svg&icon_color=%2300FF00&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
+![Visitors](https://komarev.com/ghpvc/?username=cruway&color=00FF00&style=flat-square&label=VISITORS)
 
 </div>
