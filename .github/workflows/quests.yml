@@ -1,0 +1,51 @@
+name: Update Quest Log
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "quests.yml"
+      - ".github/scripts/update-quests.mjs"
+      - ".github/workflows/quests.yml"
+  repository_dispatch:
+    types: [quest-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quest-log
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm install --no-save js-yaml@4
+
+      - name: Regenerate QUEST LOG
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-quests.mjs
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          if git diff --quiet README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore(quests): refresh QUEST LOG"
+          git push

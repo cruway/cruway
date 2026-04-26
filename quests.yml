@@ -1,0 +1,77 @@
+# 🏰 QUEST LOG — Active Projects
+#
+# This file is the source of truth for the QUEST LOG section in README.md.
+# Edit it and the workflow (.github/workflows/quests.yml) will regenerate the
+# table on the next cron tick, on push to this file, or via manual dispatch.
+#
+# Status icons:
+#   fire   → 🔥  Actively building
+#   bolt   → ⚡  Research / AI / experimental
+#   wrench → 🛠️  Tooling / utility
+#   game   → 🎮  Game project
+#
+# Optional fields:
+#   private: true   → does not link to a repo (kept hidden 🗝️)
+#   fresh_days: N   → override default 7-day "🆕" threshold
+#   hide: true      → keep entry but skip rendering
+
+defaults:
+  fresh_days: 7
+
+quests:
+  - status: fire
+    name: novel_forge
+    description: Offline-first visual novel engine with No-Code editor
+    tech: [Flutter, Dart]
+    private: true
+
+  - status: fire
+    name: novel_game
+    description: 月刊アビス — Occult mystery visual novel game
+    tech: [Flutter, Dart, Flame]
+    private: true
+
+  - status: fire
+    name: devquest
+    description: RPG-style gamified developer task manager
+    tech: [Flutter, Flame, Bonfire]
+    private: true
+
+  - status: bolt
+    name: japan-loto-predictor
+    description: Lottery prediction engine with statistical analysis
+    tech: [Python, AI/ML]
+    private: true
+
+  - status: bolt
+    name: novel-ai-project
+    description: AI-powered novel auto-generation platform
+    tech: [AI, Automation]
+    private: true
+
+  - status: bolt
+    name: study-tool
+    description: System Design Master — interview prep toolkit
+    tech: [TypeScript]
+    private: true
+
+  - status: wrench
+    name: techpulse-blog
+    description: IT tech trend blog powered by Go + HTMX + n8n
+    tech: [Go, HTMX]
+
+  - status: wrench
+    name: workflow-visualizer
+    description: Excel-like UI for creating Mermaid diagrams
+    tech: [TypeScript, Tauri]
+
+  - status: wrench
+    name: doc-to-markdown-editor
+    description: Google Docs → structured Markdown export tool
+    tech: [TypeScript]
+
+  - status: game
+    name: undead_survive
+    description: Survival hack & slash action game
+    tech: [Flutter, Dart]
+    private: true
