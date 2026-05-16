@@ -96,7 +96,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-05-15 21:21 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-05-16 21:14 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
