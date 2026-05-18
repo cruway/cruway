@@ -85,18 +85,18 @@
 | 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | today |
 | 🔥 | **novel_game** 🆕 | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | today |
 | 🔥 | **devquest** | RPG-style gamified developer task manager | `Flutter` `Flame` `Bonfire` | 1mo ago |
-| ⚡ | **japan-loto-predictor** 🆕 | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | today |
+| ⚡ | **japan-loto-predictor** 🆕 | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 1d ago |
 | ⚡ | **novel-ai-project** | AI-powered novel auto-generation platform | `AI` `Automation` | 2mo ago |
-| ⚡ | **study-tool** 🆕 | System Design Master — interview prep toolkit | `TypeScript` | 1d ago |
+| ⚡ | **study-tool** 🆕 | System Design Master — interview prep toolkit | `TypeScript` | today |
 | 🛠️ | [**techpulse-blog**](https://github.com/cruway/techpulse-blog) | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` | 2mo ago |
 | 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 2mo ago |
 | 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 2mo ago |
-| 🎮 | **undead_survive** | Survival hack & slash action game | `Flutter` `Dart` | 3mo ago |
+| 🎮 | **undead_survive** | Survival hack & slash action game | `Flutter` `Dart` | 4mo ago |
 
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-05-17 21:15 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-05-18 21:24 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
