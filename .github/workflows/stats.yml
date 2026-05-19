@@ -39,7 +39,20 @@ jobs:
 
       - name: Generate streak stats
         run: |
-          curl -s "https://streak-stats.demolab.com/?user=cruway&theme=radical&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=FF6600&currStreakLabel=00FF00" -o stats/streak.svg
+          set +e
+          curl -sf --retry 3 --retry-delay 10 \
+            "https://streak-stats.demolab.com/?user=cruway&theme=radical&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=FF6600&currStreakLabel=00FF00" \
+            -o stats/streak.svg.new
+          status=$?
+          if [ $status -eq 0 ] \
+            && grep -q '<svg' stats/streak.svg.new \
+            && ! grep -qi 'Failed to retrieve\|API issue\|Sad' stats/streak.svg.new; then
+            mv stats/streak.svg.new stats/streak.svg
+            echo "streak-stats updated"
+          else
+            echo "streak-stats fetch failed or returned error svg; keeping previous stats/streak.svg"
+            rm -f stats/streak.svg.new
+          fi
 
       - name: Commit & Push
         run: |
