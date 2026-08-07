@@ -82,8 +82,8 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 2d ago |
-| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 17d ago |
+| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | today |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 18d ago |
 | 🔥 | **devquest** | RPG-style gamified developer task manager | `Flutter` `Flame` `Bonfire` | 1mo ago |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 2mo ago |
 | ⚡ | **novel-ai-project** | AI-powered novel auto-generation platform | `AI` `Automation` | 5mo ago |
@@ -96,7 +96,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-08-07 00:58 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-08-07 21:26 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
