@@ -39,6 +39,13 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add stats/
-          if git commit -m "generated trophy hall"; then
-            git push
-          fi
+          git commit -m "generated trophy hall" || { echo "nothing to commit"; exit 0; }
+          # Sibling workflows push to main on overlapping schedules, so a plain
+          # push races with them. Rebase onto whatever landed and try again.
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "push rejected; rebasing onto origin/main (attempt $attempt)"
+            git pull --rebase origin main || exit 1
+          done
+          echo "push still failing after 3 attempts"
+          exit 1
