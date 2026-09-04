@@ -31,28 +31,40 @@ jobs:
         run: |
           mkdir -p stats
 
+          DARK="hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF"
+          LIGHT="hide_border=true&bg_color=FFFFFF&title_color=0B8A3E&text_color=24292F"
+
           # GitHub Stats Card
-          curl -s "http://localhost:9000/api?username=cruway&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=FFFFFF&include_all_commits=true&count_private=true" -o stats/github-stats.svg
+          curl -s "http://localhost:9000/api?username=cruway&show_icons=true&theme=radical&$DARK&icon_color=00FF00&include_all_commits=true&count_private=true" -o stats/github-stats.svg
+          curl -s "http://localhost:9000/api?username=cruway&show_icons=true&$LIGHT&icon_color=0B8A3E&ring_color=0B8A3E&include_all_commits=true&count_private=true" -o stats/github-stats-light.svg
 
           # Top Languages
-          curl -s "http://localhost:9000/api/top-langs/?username=cruway&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=FFFFFF&langs_count=10" -o stats/top-langs.svg
+          curl -s "http://localhost:9000/api/top-langs/?username=cruway&layout=compact&theme=radical&$DARK&langs_count=10" -o stats/top-langs.svg
+          curl -s "http://localhost:9000/api/top-langs/?username=cruway&layout=compact&$LIGHT&langs_count=10" -o stats/top-langs-light.svg
 
       - name: Generate streak stats
         run: |
           set +e
-          curl -sf --retry 3 --retry-delay 10 \
-            "https://streak-stats.demolab.com/?user=cruway&theme=radical&hide_border=true&background=0D1117&stroke=00FF00&ring=00FF00&fire=FF6600&currStreakLabel=00FF00" \
-            -o stats/streak.svg.new
-          status=$?
-          if [ $status -eq 0 ] \
-            && grep -q '<svg' stats/streak.svg.new \
-            && ! grep -qi 'Failed to retrieve\|API issue\|Sad' stats/streak.svg.new; then
-            mv stats/streak.svg.new stats/streak.svg
-            echo "streak-stats updated"
-          else
-            echo "streak-stats fetch failed or returned error svg; keeping previous stats/streak.svg"
-            rm -f stats/streak.svg.new
-          fi
+          # $1 = output path, $2 = theme query. Keeps the previous SVG whenever the
+          # upstream API is down or hands back one of its error cards.
+          fetch_streak() {
+            curl -sf --retry 3 --retry-delay 10 \
+              "https://streak-stats.demolab.com/?user=cruway&hide_border=true&$2" \
+              -o "$1.new"
+            status=$?
+            if [ $status -eq 0 ] \
+              && grep -q '<svg' "$1.new" \
+              && ! grep -qi 'Failed to retrieve\|API issue\|Sad' "$1.new"; then
+              mv "$1.new" "$1"
+              echo "updated $1"
+            else
+              echo "streak-stats fetch failed or returned error svg; keeping previous $1"
+              rm -f "$1.new"
+            fi
+          }
+
+          fetch_streak stats/streak.svg "theme=radical&background=0D1117&stroke=00FF00&ring=00FF00&fire=FF6600&currStreakLabel=00FF00"
+          fetch_streak stats/streak-light.svg "background=FFFFFF&stroke=0B8A3E&ring=0B8A3E&fire=FF6600&currStreakLabel=0B8A3E&sideLabels=24292F&dates=57606A&sideNums=24292F&currStreakNum=24292F&excludeDaysLabel=57606A"
 
       - name: Commit & Push
         run: |

@@ -1,0 +1,44 @@
+name: Generate Trophy Hall
+
+# The hosted github-profile-trophy.vercel.app instance returns 402
+# (DEPLOYMENT_DISABLED), so the trophy SVGs are rendered here instead —
+# same self-hosting approach as .github/workflows/stats.yml.
+
+on:
+  schedule:
+    - cron: "45 18 * * *" # 03:45 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate trophy (dark)
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: stats/trophy-dark.svg
+          theme: matrix
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate trophy (light)
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: stats/trophy-light.svg
+          theme: flat
+          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add stats/
+          if git commit -m "generated trophy hall"; then
+            git push
+          fi

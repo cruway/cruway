@@ -2,22 +2,40 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   ██████╗██████╗ ██╗   ██╗██╗    ██╗ █████╗ ██╗   ██╗           ║
-║  ██╔════╝██╔══██╗██║   ██║██║    ██║██╔══██╗╚██╗ ██╔╝           ║
-║  ██║     ██████╔╝██║   ██║██║ █╗ ██║███████║ ╚████╔╝            ║
-║  ██║     ██╔══██╗██║   ██║██║███╗██║██╔══██║  ╚██╔╝             ║
-║  ╚██████╗██║  ██║╚██████╔╝╚███╔███╔╝██║  ██║   ██║              ║
-║   ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝              ║
-║                                                                  ║
-║              ⚔️  BACKEND ENGINEER  ×  GAME DEV  ⚔️               ║
-║                    📍 Tokyo, Japan 🇯🇵                            ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║       ██████╗██████╗ ██╗   ██╗██╗    ██╗ █████╗ ██╗   ██╗      ║
+║      ██╔════╝██╔══██╗██║   ██║██║    ██║██╔══██╗╚██╗ ██╔╝      ║
+║      ██║     ██████╔╝██║   ██║██║ █╗ ██║███████║ ╚████╔╝       ║
+║      ██║     ██╔══██╗██║   ██║██║███╗██║██╔══██║  ╚██╔╝        ║
+║      ╚██████╗██║  ██║╚██████╔╝╚███╔███╔╝██║  ██║   ██║         ║
+║       ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝         ║
+║                                                                ║
+║       +------------------------------------------------+       ║
+║       |   BACKEND ENGINEER   x   GAME DEVELOPER        |       ║
+║       |   LOCATION: TOKYO, JAPAN                       |       ║
+║       +------------------------------------------------+       ║
+║                                                                ║
+║                   PRESS  START  TO  CONTINUE                   ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%3E+Loading+profile...;%3E+Welcome+to+cruway's+dungeon+%F0%9F%8F%B0" alt="Typing SVG" />
+`⚔️ BACKEND ENGINEER` · `🎮 GAME DEV` · `📍 TOKYO, JAPAN 🇯🇵`
+
+<!-- HUD:START -->
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║     LV.11   EXP 4,725   REPOS 44   ALLIES 120   QUESTS 10      ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+<!-- HUD:END -->
+
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=3200&pause=900&color=00FF66&center=true&vCenter=true&repeat=true&width=720&height=46&lines=%3E+Booting+cruway.exe+...;%3E+Backend+Engineer+%2F%2F+Tokyo%2C+Japan;%3E+Now+building%3A+AI+x+Games;%3E+Press+START+to+continue+_" alt="Typing SVG" />
 
 </div>
 
@@ -25,29 +43,35 @@
 
 ## 🎮 `> SELECT YOUR HERO`
 
+<div align="center">
+
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  NAME .......... cruway                                     │
-│  CLASS ......... Backend Engineer                           │
-│  LOCATION ...... Tokyo, Japan 🇯🇵                           │
-│  STATUS ........ Crafting AI-powered worlds                 │
-│                                                             │
-│  ─────────────────────────────────────────────              │
-│                                                             │
-│  Backend engineer by day, game developer by passion.        │
-│  Currently obsessed with building things using AI —         │
-│  from novel engines to prediction systems.                  │
-│                                                             │
-│  These days, I'm diving deep into AI-driven architecture    │
-│  & design services, studying system design patterns,        │
-│  and exploring how AI can reshape the way we build          │
-│  software from the ground up.                               │
-│                                                             │
-│  Always leveling up. Always building something new.         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║  NAME .......... cruway                                        ║
+║  CLASS ......... Backend Engineer                              ║
+║  SUBCLASS ...... Game Developer                                ║
+║  LOCATION ...... Tokyo, Japan                                  ║
+║  JOINED ........ 2015                                          ║
+║  STATUS ........ Crafting AI-powered worlds                    ║
+║                                                                ║
+║  ----------------------------------------------------------    ║
+║                                                                ║
+║  Backend engineer by day, game developer by passion.           ║
+║  Currently obsessed with building things using AI --           ║
+║  from novel engines to prediction systems.                     ║
+║                                                                ║
+║  These days I'm diving deep into AI-driven architecture        ║
+║  & design services, studying system design patterns, and       ║
+║  exploring how AI can reshape the way we build software        ║
+║  from the ground up.                                           ║
+║                                                                ║
+║  Always leveling up. Always building something new.            ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 ---
 
@@ -96,9 +120,25 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-04 22:36 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-04 22:43 UTC</sub>
 
 <!-- QUEST_LOG:END -->
+
+---
+
+## 🐍 `> DUNGEON MAP`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cruway/cruway/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cruway/cruway/output/github-snake.svg" />
+  <img alt="Contribution snake crawling the dungeon" src="https://raw.githubusercontent.com/cruway/cruway/output/github-snake-dark.svg" />
+</picture>
+
+<sub>🐍 *The serpent devours every contribution · regenerated daily*</sub>
+
+</div>
 
 ---
 
@@ -106,13 +146,39 @@
 
 <div align="center">
 
-<!-- GitHub Stats (generated via GitHub Actions with PAT) -->
-<img src="./stats/github-stats.svg" width="420" />
+<!-- Self-hosted via .github/workflows/stats.yml (PAT) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./stats/github-stats.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./stats/github-stats-light.svg" />
+  <img src="./stats/github-stats.svg" width="420" alt="GitHub stats" />
+</picture>
 
-<img src="./stats/top-langs.svg" width="420" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./stats/top-langs.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./stats/top-langs-light.svg" />
+  <img src="./stats/top-langs.svg" width="420" alt="Top languages" />
+</picture>
 
-<!-- Streak Stats -->
-<img src="./stats/streak.svg" width="420" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./stats/streak.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./stats/streak-light.svg" />
+  <img src="./stats/streak.svg" width="420" alt="Contribution streak" />
+</picture>
+
+</div>
+
+---
+
+## 🏆 `> TROPHY HALL`
+
+<div align="center">
+
+<!-- Self-hosted via .github/workflows/trophy.yml -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./stats/trophy-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./stats/trophy-light.svg" />
+  <img alt="GitHub profile trophies" src="./stats/trophy-dark.svg" />
+</picture>
 
 </div>
 
@@ -137,12 +203,16 @@
 <div align="center">
 
 ```
- ╔═══════════════════════════════════════════════════╗
- ║  🧠 System Design & Architecture Patterns        ║
- ║  🤖 AI-Driven Service Design                     ║
- ║  ☸️  Kubernetes & Cloud Native                    ║
- ║  🦀 Rust                                         ║
- ╚═══════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║  SKILL POINTS ALLOCATED THIS SEASON                            ║
+║                                                                ║
+║  > System Design & Architecture Patterns                       ║
+║  > AI-Driven Service Design                                    ║
+║  > Kubernetes & Cloud Native                                   ║
+║  > Rust                                                        ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
 [![Learning](https://skillicons.dev/icons?i=kubernetes,rust,figma&theme=dark)](https://skillicons.dev)
@@ -151,27 +221,17 @@
 
 ---
 
-## 📈 `> ACTIVITY GRAPH`
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cruway&theme=react-dark&hide_border=true&bg_color=0D1117&color=00FF00&line=00FF00&point=FF6600)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════╗
-║                                                       ║
-║   "The code is my sword, AI is my shield."            ║
-║                                                       ║
-║            GAME OVER? NEVER.                          ║
-║            > CONTINUE? [Y/N] █                        ║
-║                                                       ║
-╚═══════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║            "The code is my sword, AI is my shield."            ║
+║                                                                ║
+║                       GAME OVER?  NEVER.                       ║
+║                      > CONTINUE? [Y/N] █                       ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
 ![Visitors](https://komarev.com/ghpvc/?username=cruway&color=00FF00&style=flat-square&label=VISITORS)
