@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 4,726   REPOS 44   ALLIES 120   QUESTS 10      ║
+║     LV.11   EXP 4,750   REPOS 44   ALLIES 119   QUESTS 10      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -111,16 +111,16 @@
 | 🔥 | **devquest** | RPG-style gamified developer task manager | `Flutter` `Flame` `Bonfire` | 2mo ago |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 3mo ago |
 | ⚡ | **novel-ai-project** | AI-powered novel auto-generation platform | `AI` `Automation` | 6mo ago |
-| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 2mo ago |
+| ⚡ | **study-tool** 🆕 | System Design Master — interview prep toolkit | `TypeScript` | today |
 | 🛠️ | [**techpulse-blog**](https://github.com/cruway/techpulse-blog) | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` | 5mo ago |
-| 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 5mo ago |
-| 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 5mo ago |
+| 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 6mo ago |
+| 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 6mo ago |
 | 🎮 | **undead_survive** | Survival hack & slash action game | `Flutter` `Dart` | 7mo ago |
 
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-04 22:47 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-05 22:25 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
