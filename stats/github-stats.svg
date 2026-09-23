@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Cruway's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  : 3079, Total PRs: 1567, Total Issues: 1675, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  : 3101, Total PRs: 1588, Total Issues: 1680, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 100.41144140304107;
+        stroke-dashoffset: 100.3241263740883;
       }
     }
   
