@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║      LV.11   EXP 5,378   REPOS 44   ALLIES 120   QUESTS 9      ║
+║      LV.11   EXP 5,385   REPOS 44   ALLIES 120   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -119,7 +119,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-25 22:07 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-25 23:40 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
