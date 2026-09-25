@@ -34,7 +34,7 @@ quests:
   - status: fire
     name: devquest
     description: RPG-style gamified developer task manager
-    tech: [Flutter, Flame, Bonfire]
+    tech: [Godot, C#]
     private: true
 
   - status: bolt
@@ -48,11 +48,18 @@ quests:
     description: AI-powered novel auto-generation platform
     tech: [AI, Automation]
     private: true
+    hide: true
 
   - status: bolt
     name: study-tool
     description: System Design Master — interview prep toolkit
     tech: [TypeScript]
+    private: true
+
+  - status: bolt
+    name: ebook_ocr
+    description: Personal eBook OCR — Kindle/Kyobo/RIDI capture + PDF extraction
+    tech: [Python, Vision OCR]
     private: true
 
   - status: wrench
@@ -75,3 +82,4 @@ quests:
     description: Survival hack & slash action game
     tech: [Flutter, Dart]
     private: true
+    hide: true
