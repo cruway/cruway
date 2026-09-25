@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 5,354   REPOS 44   ALLIES 121   QUESTS 10      ║
+║      LV.11   EXP 5,378   REPOS 44   ALLIES 120   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -107,20 +107,19 @@
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
 | 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | today |
-| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 16d ago |
-| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Flutter` `Flame` `Bonfire` | today |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 17d ago |
+| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 4mo ago |
-| ⚡ | **novel-ai-project** | AI-powered novel auto-generation platform | `AI` `Automation` | 6mo ago |
-| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 19d ago |
+| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 20d ago |
+| ⚡ | **ebook_ocr** | Personal eBook OCR — Kindle/Kyobo/RIDI capture + PDF extraction | `Python` `Vision OCR` | 2mo ago |
 | 🛠️ | [**techpulse-blog**](https://github.com/cruway/techpulse-blog) | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` | 6mo ago |
 | 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 6mo ago |
 | 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 6mo ago |
-| 🎮 | **undead_survive** | Survival hack & slash action game | `Flutter` `Dart` | 8mo ago |
 
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-24 23:36 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-09-25 22:07 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
