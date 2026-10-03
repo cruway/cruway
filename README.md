@@ -106,11 +106,11 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 2d ago |
-| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 23d ago |
-| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
+| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 3d ago |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 24d ago |
+| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | 1d ago |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 4mo ago |
-| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 26d ago |
+| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 27d ago |
 | ⚡ | **ebook_ocr** | Personal eBook OCR — Kindle/Kyobo/RIDI capture + PDF extraction | `Python` `Vision OCR` | 2mo ago |
 | 🛠️ | [**techpulse-blog**](https://github.com/cruway/techpulse-blog) | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` | 6mo ago |
 | 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 6mo ago |
@@ -119,7 +119,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-10-02 00:17 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-10-03 00:02 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
