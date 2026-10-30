@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 10,864   REPOS 45   ALLIES 119   QUESTS 9      ║
+║     LV.11   EXP 10,962   REPOS 45   ALLIES 118   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -106,8 +106,8 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 9d ago |
-| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 16d ago |
+| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 10d ago |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 17d ago |
 | 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 5mo ago |
 | ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 1mo ago |
@@ -119,7 +119,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-10-29 00:29 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-10-30 00:28 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
