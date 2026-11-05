@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 11,438   REPOS 45   ALLIES 119   QUESTS 9      ║
+║     LV.11   EXP 11,540   REPOS 45   ALLIES 117   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -106,20 +106,20 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 2d ago |
-| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 22d ago |
+| 🔥 | **novel_forge** 🆕 | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 3d ago |
+| 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 23d ago |
 | 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 5mo ago |
-| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 1mo ago |
+| ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 2mo ago |
 | ⚡ | **ebook_ocr** | Personal eBook OCR — Kindle/Kyobo/RIDI capture + PDF extraction | `Python` `Vision OCR` | 3mo ago |
 | 🛠️ | [**techpulse-blog**](https://github.com/cruway/techpulse-blog) | IT tech trend blog powered by Go + HTMX + n8n | `Go` `HTMX` | 7mo ago |
-| 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 7mo ago |
-| 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 7mo ago |
+| 🛠️ | [**workflow-visualizer**](https://github.com/cruway/workflow-visualizer) | Excel-like UI for creating Mermaid diagrams | `TypeScript` `Tauri` | 8mo ago |
+| 🛠️ | [**doc-to-markdown-editor**](https://github.com/cruway/doc-to-markdown-editor) | Google Docs → structured Markdown export tool | `TypeScript` | 8mo ago |
 
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-04 00:57 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-05 01:07 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
