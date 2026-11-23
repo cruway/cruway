@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 13,994   REPOS 45   ALLIES 117   QUESTS 9      ║
+║     LV.11   EXP 14,115   REPOS 45   ALLIES 117   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -106,7 +106,7 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 20d ago |
+| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 21d ago |
 | 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 1mo ago |
 | 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 6mo ago |
@@ -119,7 +119,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-22 00:44 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-23 01:12 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
