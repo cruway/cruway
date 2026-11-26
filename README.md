@@ -28,7 +28,7 @@
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║     LV.11   EXP 14,381   REPOS 45   ALLIES 118   QUESTS 9      ║
+║     LV.11   EXP 14,467   REPOS 45   ALLIES 118   QUESTS 9      ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
@@ -106,9 +106,9 @@
 
 | Status | Quest | Description | Tech | Updated |
 |:------:|-------|-------------|------|:-------:|
-| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 23d ago |
+| 🔥 | **novel_forge** | Offline-first visual novel engine with No-Code editor | `Flutter` `Dart` | 24d ago |
 | 🔥 | **novel_game** | 月刊アビス — Occult mystery visual novel game | `Flutter` `Dart` `Flame` | 1mo ago |
-| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | today |
+| 🔥 | **devquest** 🆕 | RPG-style gamified developer task manager | `Godot` `C#` | 1d ago |
 | ⚡ | **japan-loto-predictor** | Lottery prediction engine with statistical analysis | `Python` `AI/ML` | 6mo ago |
 | ⚡ | **study-tool** | System Design Master — interview prep toolkit | `TypeScript` | 2mo ago |
 | ⚡ | **ebook_ocr** | Personal eBook OCR — Kindle/Kyobo/RIDI capture + PDF extraction | `Python` `Vision OCR` | 4mo ago |
@@ -119,7 +119,7 @@
 </div>
 
 > 🗝️ *Some quests are hidden in private dungeons...*
-<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-25 03:50 UTC</sub>
+<sub>⏱ Auto-generated from `quests.yml` · last update: 2026-11-26 03:15 UTC</sub>
 
 <!-- QUEST_LOG:END -->
 
